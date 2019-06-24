@@ -1,0 +1,92 @@
+Handle,Title,Body (HTML),Vendor,Type,Tags,Option1 Name,Option1 Value,Option2 Name,Option2 Value,Option3 Name,Option3 Value,Variant SKU,Variant Grams,Variant Inventory Tracker,Variant Inventory Qty,Variant Inventory Policy,Variant Fulfillment Service,Variant Price,Variant Compare At Price,Variant Requires Shipping,Variant Taxable,Image Src
+awesome-sneakers,Awesome Sneakers,"<p>&nbsp;Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus id 
+purus et nisl elementum ornare sit amet non mi. Phasellus euismod sapien
+ et sapien mollis auctor. Suspendisse interdum erat ut metus euismod sed
+ elementum massa euismod. Donec eget magna orci, at fermentum metus. Sed
+ rhoncus, nibh nec dapibus adipiscing, felis felis convallis arcu, quis 
+semper justo mauris sed magna. Nulla facilisi. Aliquam ultricies diam 
+non turpis tristique porta. Sed nec ligula id turpis iaculis adipiscing.
+ Phasellus viverra urna sed purus porta rutrum. Nam ultrices molestie 
+tellus, ac vulputate odio condimentum in.</p>
+",Tets,kicks,"",Title,Default Title,Size,Default Size,,,,0,shopify,0,deny,manual,120.00,,true,true,http://cdn.shopify.com/s/files/1/0099/3892/products/ni313171_600_thum1_10_674_17041.jpeg?905
+awesome-sneakers,,,,,,Title,Test,Size,Test,,,,0,,1,deny,manual,120.00,,true,true,http://cdn.shopify.com/s/files/1/0099/3892/products/g_lovemedo7_f_large.jpeg?905
+cool-kicks,Cool Kicks,"<p>&nbsp;Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus id 
+purus et nisl elementum ornare sit amet non mi. Phasellus euismod sapien
+ et sapien mollis auctor. Suspendisse interdum erat ut metus euismod sed
+ elementum massa euismod. Donec eget magna orci, at fermentum metus. Sed
+ rhoncus, nibh nec dapibus adipiscing, felis felis convallis arcu, quis 
+semper justo mauris sed magna. Nulla facilisi. Aliquam ultricies diam 
+non turpis tristique porta. Sed nec ligula id turpis iaculis adipiscing.
+ Phasellus viverra urna sed purus porta rutrum. Nam ultrices molestie 
+tellus, ac vulputate odio condimentum in.</p>
+",shopify,kicks,"",Title,Default Title,,,,,,0,,0,deny,manual,120.00,,true,true,http://cdn.shopify.com/s/files/1/0099/3892/products/jo340254_061_thum1___13873.jpeg?905
+gnarly-shoes-1,Gnarly Shoes,"<p>&nbsp;Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus id 
+purus et nisl elementum ornare sit amet non mi. Phasellus euismod sapien
+ et sapien mollis auctor. Suspendisse interdum erat ut metus euismod sed
+ elementum massa euismod. Donec eget magna orci, at fermentum metus. Sed
+ rhoncus, nibh nec dapibus adipiscing, felis felis convallis arcu, quis 
+semper justo mauris sed magna. Nulla facilisi. Aliquam ultricies diam 
+non turpis tristique porta. Sed nec ligula id turpis iaculis adipiscing.
+ Phasellus viverra urna sed purus porta rutrum. Nam ultrices molestie 
+tellus, ac vulputate odio condimentum in.</p>
+",shopify,kicks,"",Title,Default Title,,,,,,0,,1,deny,manual,120.00,,true,true,http://cdn.shopify.com/s/files/1/0099/3892/products/ASHL835-2616_thum1_62_529_16560.jpeg?905
+gnarly-shoes,Gnarly Shoes,"<p>&nbsp;Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus id 
+purus et nisl elementum ornare sit amet non mi. Phasellus euismod sapien
+ et sapien mollis auctor. Suspendisse interdum erat ut metus euismod sed
+ elementum massa euismod. Donec eget magna orci, at fermentum metus. Sed
+ rhoncus, nibh nec dapibus adipiscing, felis felis convallis arcu, quis 
+semper justo mauris sed magna. Nulla facilisi. Aliquam ultricies diam 
+non turpis tristique porta. Sed nec ligula id turpis iaculis adipiscing.
+ Phasellus viverra urna sed purus porta rutrum. Nam ultrices molestie 
+tellus, ac vulputate odio condimentum in.</p>
+",shopify,kicks,"",Title,Default Title,,,,,,0,,1,deny,manual,120.00,,true,true,http://cdn.shopify.com/s/files/1/0099/3892/products/WEB105500690_thum1_163_1900_18576.jpeg?905
+good-ol-shoes,Good Ol' Shoes,"<p>&nbsp;Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus id 
+purus et nisl elementum ornare sit amet non mi. Phasellus euismod sapien
+ et sapien mollis auctor. Suspendisse interdum erat ut metus euismod sed
+ elementum massa euismod. Donec eget magna orci, at fermentum metus. Sed
+ rhoncus, nibh nec dapibus adipiscing, felis felis convallis arcu, quis 
+semper justo mauris sed magna. Nulla facilisi. Aliquam ultricies diam 
+non turpis tristique porta. Sed nec ligula id turpis iaculis adipiscing.
+ Phasellus viverra urna sed purus porta rutrum. Nam ultrices molestie 
+tellus, ac vulputate odio condimentum in.</p>
+",shopify,kicks,"",Title,Default Title,,,,,,0,,1,deny,manual,110.00,,true,true,http://cdn.shopify.com/s/files/1/0099/3892/products/ALS91CCZ3_thum1___7614.jpeg?905
+hip-shoes,Hip Shoes,"<p>&nbsp;Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus id 
+purus et nisl elementum ornare sit amet non mi. Phasellus euismod sapien
+ et sapien mollis auctor. Suspendisse interdum erat ut metus euismod sed
+ elementum massa euismod. Donec eget magna orci, at fermentum metus. Sed
+ rhoncus, nibh nec dapibus adipiscing, felis felis convallis arcu, quis 
+semper justo mauris sed magna. Nulla facilisi. Aliquam ultricies diam 
+non turpis tristique porta. Sed nec ligula id turpis iaculis adipiscing.
+ Phasellus viverra urna sed purus porta rutrum. Nam ultrices molestie 
+tellus, ac vulputate odio condimentum in.</p>
+",shopify,kicks,"",Title,Default Title,,,,,,0,,1,deny,manual,120.00,,true,true,http://cdn.shopify.com/s/files/1/0099/3892/products/WEB105494765_thum1_163_1768_18573.jpeg?905
+insane-shoes,Insane Shoes,"<p>&nbsp;Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus id 
+purus et nisl elementum ornare sit amet non mi. Phasellus euismod sapien
+ et sapien mollis auctor. Suspendisse interdum erat ut metus euismod sed
+ elementum massa euismod. Donec eget magna orci, at fermentum metus. Sed
+ rhoncus, nibh nec dapibus adipiscing, felis felis convallis arcu, quis 
+semper justo mauris sed magna. Nulla facilisi. Aliquam ultricies diam 
+non turpis tristique porta. Sed nec ligula id turpis iaculis adipiscing.
+ Phasellus viverra urna sed purus porta rutrum. Nam ultrices molestie 
+tellus, ac vulputate odio condimentum in.</p>
+",shopify,kicks,"",Title,Default Title,,,,,,0,,1,deny,manual,120.00,,true,true,http://cdn.shopify.com/s/files/1/0099/3892/products/ALCCRGBR-F081_thum1___107.jpeg?905
+nice-shoes,Nice Shoes,"<p>&nbsp;Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus id 
+purus et nisl elementum ornare sit amet non mi. Phasellus euismod sapien
+ et sapien mollis auctor. Suspendisse interdum erat ut metus euismod sed
+ elementum massa euismod. Donec eget magna orci, at fermentum metus. Sed
+ rhoncus, nibh nec dapibus adipiscing, felis felis convallis arcu, quis 
+semper justo mauris sed magna. Nulla facilisi. Aliquam ultricies diam 
+non turpis tristique porta. Sed nec ligula id turpis iaculis adipiscing.
+ Phasellus viverra urna sed purus porta rutrum. Nam ultrices molestie 
+tellus, ac vulputate odio condimentum in.</p>
+",shopify,kicks,"",Title,Default Title,,,,,,0,,1,deny,manual,120.00,,true,true,http://cdn.shopify.com/s/files/1/0099/3892/products/ADG20065_thum1_177_2152_20721.jpeg?905
+old-school-kicks,Old School Kicks,"<p>&nbsp;Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus id 
+purus et nisl elementum ornare sit amet non mi. Phasellus euismod sapien
+ et sapien mollis auctor. Suspendisse interdum erat ut metus euismod sed
+ elementum massa euismod. Donec eget magna orci, at fermentum metus. Sed
+ rhoncus, nibh nec dapibus adipiscing, felis felis convallis arcu, quis 
+semper justo mauris sed magna. Nulla facilisi. Aliquam ultricies diam 
+non turpis tristique porta. Sed nec ligula id turpis iaculis adipiscing.
+ Phasellus viverra urna sed purus porta rutrum. Nam ultrices molestie 
+tellus, ac vulputate odio condimentum in.</p>
+",shopify,kicks,"",Title,Default Title,,,,,,0,,1,deny,manual,110.00,,true,true,http://cdn.shopify.com/s/files/1/0099/3892/products/m1300ggb-1_1.jpg?905
