@@ -1,0 +1,439 @@
+{{ "https://cdnjs.cloudflare.com/ajax/libs/mustache.js/3.0.1/mustache.min.js" | script_tag }}
+
+{% assign current_variant = product.selected_or_first_available_variant %}
+{% assign featured_image = current_variant.featured_image | default: product.featured_image %}
+<div class="flex-container">
+    <div class="product">
+        <h1>{{ product.title }}</h1>
+        <img src="{{ featured_image | img_url: 'large' }}" alt="{{ featured_image.alt | escape }}" id="ProductPhotoImg">
+        <form action="/cart/add" method="post" enctype="multipart/form-data" id="AddToCartForm">
+            <select name="id" id="productSelect">
+                {% for variant in product.variants %}
+                    {% if variant.available %}
+                        <option value="{{ variant.id }}">
+                            {{ variant.title }} - {{ variant.price | money_with_currency }}
+                        </option>
+                    {% else %}
+                        <option disabled="disabled">
+                            {{ variant.title }} - sold out
+                        </option>
+                    {% endif %}
+                {% endfor %}
+            </select>
+            {{ current_variant.price | money }}
+            <label for="Quantity">quantity</label>
+            <input type="number" id="Quantity" name="quantity" value="1" min="1">
+            <button type="submit" name="add" id="AddToCart">Add to cart</button>
+        </form>
+        <div>{{ product.description }}</div>
+        {% for image in product.images %}
+            <a href="{{ image.src | img_url: 'large' }}">
+                <img src="{{ image.src | img_url: 'compact' }}" alt="{{ image.alt | escape }}">
+            </a>
+        {% endfor %}
+    </div>
+
+
+    <div class="side-cart">
+        <h2>Cart</h2>
+        <div id="cart-goes-here"></div>
+    </div>
+</div>
+
+<script id="template" type="text/html">
+    <div>
+    <div class="items">
+        <%#items%>
+        <div class="item" data-variant-id="<%id%>">
+            <div class="row cart__row">
+                <div class="col-md-4 col-sm-4 col-4">
+                    <img alt="" src="<%featured_image.url%>">
+                </div>
+                <div class="col-md-8 col-sm-8 col-8">
+                    <p>
+                        <a href="<%url%>" class="cart__product-name">
+                            <span><%title%></span>
+                        </a>
+                        <%#options_with_values%><span class="cart__product-meta"><%name%>: <%value%></span><%/options_with_values%>
+                        <span class="cart__product-meta" >$<%price%></span>
+                    </p>
+                    <div class="row--full display-table">
+                        <div class="row__item display-table-cell one-half">
+                            <div class="cart__qty">
+                                <button type="button" class="x-button cart__qty-adjust cart__qty--minus">
+                                    <span aria-hidden="true" class="icon icon-minus"></span>
+                                    <span aria-hidden="true" class="fallback-text">−</span>
+                                </button>
+                                <input type="text" pattern="[0-9]*" class="cart__qty-num" value="<%quantity%>">
+                                <button type="button" class="x-button cart__qty-adjust cart__qty--plus">
+                                    <span aria-hidden="true" class="icon icon-plus"></span>
+                                    <span aria-hidden="true" class="fallback-text">+</span>
+                                </button>
+                            </div>
+                        </div>
+                        <div class="row__item display-table-cell one-half text-right"><span class="variant-price au">$<%line_price%></span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <%/items%>
+        </div>
+        <div class="cart__footer">
+            <div class="cart__footer--empty">
+                <!---->
+            </div>
+            <div class="row cart__footer-extra">
+                <div class="col-md-6 col-sm-6 col-xs-6">
+                    <p class="x-p cart__pricing-title">Shipping</p>
+                </div>
+                <div class="col-md-6 col-sm-6 col-xs-6 text-right">
+                    <p class="x-p cart__pricing-cost"><strong>FREE</strong></p>
+                </div>
+                <!---->
+            </div>
+            <div class="row cart__footer-total">
+                <div class="col-md-6 col-sm-6 col-xs-6">
+                    <p class="x-p cart__pricing-total-title">Subtotal</p>
+                </div>
+                <div class="col-md-6 col-sm-6 col-xs-6 text-right">
+                    <p class="x-p cart__pricing-total-cost"><strong>$<%total_price%></strong></p>
+                </div>
+            </div>
+            <a href="/checkout" id="checkoutButton" class="btn btn--secondary btn--full cart__cta">
+                Check Out
+            </a>
+        </div>
+    </div>
+</script>
+
+<script id="lineItemTemplate" type="text/html">
+    <div class="item" data-variant-id="<%id%>">
+        <div class="row cart__row">
+            <div class="col-md-4 col-sm-4 col-4">
+                <img alt="" src="<%featured_image.url%>">
+            </div>
+            <div class="col-md-8 col-sm-8 col-8">
+                <p>
+                    <a href="#" class="cart__product-name">
+                        <span><%title%></span>
+                    </a>
+                    <%#options_with_values%><span class="cart__product-meta"><%name%>: <%value%></span><%/options_with_values%>
+                    <span class="cart__product-meta" >$<%price%></span>
+                </p>
+                <div class="row--full display-table">
+                    <div class="row__item display-table-cell one-half">
+                        <div class="cart__qty">
+                            <button type="button" class="x-button cart__qty-adjust cart__qty--minus">
+                                <span aria-hidden="true" class="icon icon-minus"></span>
+                                <span aria-hidden="true" class="fallback-text">−</span>
+                            </button>
+                            <input type="text" pattern="[0-9]*" class="cart__qty-num" value="<%quantity%>">
+                            <button type="button" class="x-button cart__qty-adjust cart__qty--plus">
+                                <span aria-hidden="true" class="icon icon-plus"></span>
+                                <span aria-hidden="true" class="fallback-text">+</span>
+                            </button>
+                        </div>
+                    </div>
+                    <div class="row__item display-table-cell one-half text-right"><span class="variant-price au">$<%line_price%></span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</script>
+
+<script>
+    document.addEventListener("DOMContentLoaded", function() {
+      
+      	// Declare necessary parent scope variables
+      	let cartTotal = 0;
+      	let items = [];
+
+      	// Assigning DOM elements to variables
+        const $AddToCartForm = $('#AddToCartForm');
+        const template = document.getElementById('template').innerHTML;
+        const lineItemtemplate = document.getElementById('lineItemTemplate').innerHTML;
+      
+      	// Specifying custom delimiters (as curly brackets are already in use)
+        var customTags = [ '<%', '%>' ];
+
+      	// Function: takes a list of items and a single item as arguments 
+      	// and returns a filtered array based on whether a match has been found
+        const variantAlreadyExists = (items, newItem) => {
+            return items.filter(obj => {
+                return obj.id === newItem.id
+            })
+        }
+      
+        // Function: takes a cart object, updates parent scope variables,
+        // divides prices by 100 and renders the cart using Mustache
+        const handleCartResponse = (data) => {
+			
+          	// Update parent scope variables
+          	cartTotal = data.total_price;
+          	items = data.items;
+          
+          	// Divide prices by 100 to get the dollar value
+          	data.total_price = data.total_price / 100;
+          	data.items.forEach(item => {
+            	item.price = item.price / 100;
+              	item.line_price = item.line_price / 100;
+            });
+          
+         
+          	// Render cart template with Mustache
+            const output = Mustache.render(template, data, {}, customTags);
+            $('#cart-goes-here').html(output);
+        }
+
+        // Asynchronous function for handling GET '/cart.js' request
+        async function getCart() {
+            const response = await $.get('/cart.js');
+            const data = JSON.parse(response);
+          
+          	handleCartResponse(data);
+        }
+
+        // Run previous function on page load
+        getCart();
+
+        // Add item to the cart
+        $('#AddToCartForm').submit(function(e) {
+          
+       		// Prevent standard form submit
+            e.preventDefault();
+          
+          	// Use the form to send a POST request to '/cart/add.js'
+            $.post('/cart/add.js', $AddToCartForm.serialize()).then(response => {
+                
+              	// Parse and store the added item
+              	const item = JSON.parse(response);
+              
+              	// Update cart total
+              	cartTotal = cartTotal + item.price;
+              	$('.cart__pricing-total-cost').html(`<strong>$${cartTotal / 100}</strong>`);
+
+              	// Check if item already exists in the cart
+                const existingItem = variantAlreadyExists(items, item);
+                if(existingItem.length > 0) {
+                  
+                  	// If so, find the item via its id and update UI using jQuery 
+                  	const $item = $(`.item[data-variant-id=${existingItem[0].id}]`);
+                  
+                    $item.find('.cart__qty-num').val(item.quantity);
+                  	$item.find('.variant-price.au').html(`$${item.line_price / 100}`);
+                } else {
+                  
+                  	// If not...
+                  
+                  	// Add new item to items array
+                    items.push(item);
+                  
+                  	// Divide prices by 100 to get the dollar value
+                  	item.price = item.price / 100;
+              		item.line_price = item.line_price / 100;
+                  
+                  	// Render line item template with Mustache
+                    const output = Mustache.render(lineItemtemplate, item, {}, customTags);
+                    $('#cart-goes-here .items').append(output);
+                }
+
+            });
+        });
+
+      	// Function: adjusts qty of a line item
+        const adjustQty = (e, adjustment) => {
+          
+          	// Find the current quantity and variant ID of the item
+            const itemVariantId = $(e.currentTarget).closest('.item').data('variant-id');
+            const qtyInput = $(e.currentTarget).siblings('.cart__qty-num');
+			const currentQty = Number(qtyInput.val());
+          
+          	// Apply the adjustment to the current quantity to get the new quantity
+            const newQty = currentQty + adjustment;
+
+          	// Send a POST request to '/cart/change.js' with the new quantity and variant ID
+            $.post('/cart/change.js', { quantity: newQty, id: itemVariantId }).then((response) => {
+                if(response) {
+                  
+                  	// Parse and store JSON response
+                  	const data = JSON.parse(response);
+                  
+                  	// Update the quantity input with the new value
+                    qtyInput.val(newQty);
+
+                  	// If new quantity is less than one, simply remove the line item from the DOM
+                  	// Else re-render the cart
+                    if(newQty < 1) {
+                      
+                      	// Hide the DOM element
+                      	$item = $(e.currentTarget).closest('.item');
+                        $item.hide();
+                      
+                      	// Update parent scope variables
+                        items = data.items;
+                      	cartTotal = data.total_price;
+                      
+                      	// Update total price
+                      	$('.cart__pricing-total-cost').html(`<strong>$${cartTotal / 100}</strong>`);
+                    } else {
+                    	handleCartResponse(data);
+                    }
+                }
+            });
+        }
+
+        // Increase Quantity Trigger 
+        $(document).on('click','.cart__qty--plus',  (e) => adjustQty(e, 1));
+
+        // Decrease Quantity Trigger 
+        $(document).on('click','.cart__qty--minus',  (e) => adjustQty(e, -1));
+    });
+
+</script>
+
+<style>
+    .flex-container {
+        display: flex;
+    }
+    .product, .side-cart {
+        flex: 1;
+    }
+    img {
+        max-width: 100%;
+    }
+    .product {
+        padding-right: 20px;
+    }
+    .side-cart {
+        border-left: 1px solid grey;
+        padding-left: 20px;
+    }
+    .cart__header .close_btn, .cart__header .title {
+        color: #fff;
+        font-family: Brandon Grotesque,sans-serif;
+        font-weight: 900;
+    }
+    .cart__header .title {
+        font-size: 1rem;
+        text-transform: uppercase;
+        width: 100%;
+    }
+    .cart__header .close_btn {
+        cursor: pointer;
+        font-size: 2rem;
+        padding: 10px;
+        margin: -10px;
+    }
+    .row {
+        margin-left: 15px;
+        margin-right: 15px;
+    }
+    .cart-container {
+        overflow-y: scroll;
+        min-height: 100vh;
+        height: 100%;
+        padding: 0 15px 15vh;
+        margin-top: 10px;
+    }
+    .flex-middle {
+        align-items: center;
+    }
+    .flex {
+        -js-display: flex;
+        display: flex;
+    }
+    .cart__row {
+        border-bottom: 1px solid #e9e9e9;
+        padding: 15px 0;
+    }
+    .cart__footer-extra {
+        background: #f9f9f9;
+        border-bottom: 1px solid #e9e9e9;
+        padding: 15px 0;
+    }
+    .cart__footer-extra .x-p {
+        margin: 5px 0;
+        line-height: 15px;
+    }
+    .cart__footer-total .x-p {
+        font-size: .9rem;
+        line-height: .5;
+    }
+    .cart__footer-total {
+        margin-top: 12px;
+    }
+    .cart__qty input {
+        padding: 5px 10px;
+        max-width: 40px;
+        border-radius: 0;
+        text-align: center;
+        border: 1px solid #d0d0d0;
+        border-right: none;
+        border-left: none;
+    }
+    .cart__qty .x-button {
+        padding: 5px;
+        background: #f3f3f3;
+        border: 1px solid #d0d0d0;
+    }
+    .cart__product-meta, .cart__product-name {
+        display: block;
+    }
+    .cart__product-name {
+        font-weight: 900;
+        text-decoration: none;
+        color: #265674;
+    }
+    .cart__product-meta {
+        font-size: 15px;
+        padding-top: 0;
+    }
+    .variant-price {
+        font-size: 16px;
+        font-weight: 100;
+        float: right;
+        margin-top: -25px;
+    }
+    .cart__cta {
+        text-align: center;
+    }
+
+    .btn--secondary.btn-cta, .btn.btn--secondary {
+        background: #2c7d90;
+    }
+    .btn--secondary.btn-cta:hover, .btn.btn--secondary:hover {
+        background: #205b69;
+        color: white;
+    }
+    .btn--full {
+        /*width: 100%;*/
+        margin-left: 15px;
+    }
+    .btn {
+        text-transform: uppercase;
+        font-family: Brandon Grotesque, sans-serif;
+        letter-spacing: .05rem;
+        padding: 11px 30px 10px;
+        border: none;
+        color: #fff;
+        background: #858385;
+        font-weight: 900;
+        display: table;
+        text-decoration: none;
+        cursor: pointer;
+        border-radius: .2rem;
+        transition: all .3s ease;
+    }
+    @media only screen and (min-width: 770px) {
+        .cart__header {
+            height: 60px;
+        }
+    }
+    @media screen and (max-width: 450px) {
+        .row.cart__row img {
+            max-width: 100px;
+        }
+    }
+</style>
