@@ -1,0 +1,92 @@
+Handle,Title,Body (HTML),Vendor,Type,Tags,Published,Option1 Name,Option1 Value,Option2 Name,Option2 Value,Option3 Name,Option3 Value,Variant SKU,Variant Grams,Variant Inventory Tracker,Variant Inventory Qty,Variant Inventory Policy,Variant Fulfillment Service,Variant Price,Variant Compare At Price,Variant Requires Shipping,Variant Taxable,Variant Barcode,Image Src,Image Position,Image Alt Text,Gift Card,SEO Title,SEO Description,Google Shopping / Google Product Category,Google Shopping / Gender,Google Shopping / Age Group,Google Shopping / MPN,Google Shopping / AdWords Grouping,Google Shopping / AdWords Labels,Google Shopping / Condition,Google Shopping / Custom Product,Google Shopping / Custom Label 0,Google Shopping / Custom Label 1,Google Shopping / Custom Label 2,Google Shopping / Custom Label 3,Google Shopping / Custom Label 4,Variant Image,Variant Weight Unit,Variant Tax Code,Cost per item,Status
+cool-kicks,Cool Kicks,"<p> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus id 
+purus et nisl elementum ornare sit amet non mi. Phasellus euismod sapien
+ et sapien mollis auctor. Suspendisse interdum erat ut metus euismod sed
+ elementum massa euismod. Donec eget magna orci, at fermentum metus. Sed
+ rhoncus, nibh nec dapibus adipiscing, felis felis convallis arcu, quis 
+semper justo mauris sed magna. Nulla facilisi. Aliquam ultricies diam 
+non turpis tristique porta. Sed nec ligula id turpis iaculis adipiscing.
+ Phasellus viverra urna sed purus porta rutrum. Nam ultrices molestie 
+tellus, ac vulputate odio condimentum in.</p>
+",shopify,kicks,Featured Collection,true,Title,Default Title,,,,,"",0.0,,0,deny,manual,120.00,,true,true,"",https://cdn.shopify.com/s/files/1/0250/5968/8496/products/jo340254_061_thum1___13873.jpg?v=1559086173,1,,false,,,,,,,,,,,,,,,,,kg,,,active
+gnarly-shoes-1,Gnarly Shoes,"<p> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus id 
+purus et nisl elementum ornare sit amet non mi. Phasellus euismod sapien
+ et sapien mollis auctor. Suspendisse interdum erat ut metus euismod sed
+ elementum massa euismod. Donec eget magna orci, at fermentum metus. Sed
+ rhoncus, nibh nec dapibus adipiscing, felis felis convallis arcu, quis 
+semper justo mauris sed magna. Nulla facilisi. Aliquam ultricies diam 
+non turpis tristique porta. Sed nec ligula id turpis iaculis adipiscing.
+ Phasellus viverra urna sed purus porta rutrum. Nam ultrices molestie 
+tellus, ac vulputate odio condimentum in.</p>
+",shopify,kicks,Featured Collection,true,Title,Default Title,,,,,"",0.0,,1,deny,manual,120.00,,true,true,"",https://cdn.shopify.com/s/files/1/0250/5968/8496/products/ASHL835-2616_thum1_62_529_16560.jpg?v=1559086174,1,,false,,,,,,,,,,,,,,,,,kg,,,active
+hip-shoes,Hip Shoes,"<p> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus id 
+purus et nisl elementum ornare sit amet non mi. Phasellus euismod sapien
+ et sapien mollis auctor. Suspendisse interdum erat ut metus euismod sed
+ elementum massa euismod. Donec eget magna orci, at fermentum metus. Sed
+ rhoncus, nibh nec dapibus adipiscing, felis felis convallis arcu, quis 
+semper justo mauris sed magna. Nulla facilisi. Aliquam ultricies diam 
+non turpis tristique porta. Sed nec ligula id turpis iaculis adipiscing.
+ Phasellus viverra urna sed purus porta rutrum. Nam ultrices molestie 
+tellus, ac vulputate odio condimentum in.</p>
+",shopify,kicks,Featured Collection,true,Title,Default Title,,,,,"",0.0,,1,deny,manual,120.00,,true,true,"",https://cdn.shopify.com/s/files/1/0250/5968/8496/products/WEB105494765_thum1_163_1768_18573.jpg?v=1559086177,1,,false,,,,,,,,,,,,,,,,,kg,,,active
+insane-shoes,Insane Shoes,"<p> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus id purus et nisl elementum ornare sit amet non mi. Phasellus euismod sapien et sapien mollis auctor. Suspendisse interdum erat ut metus euismod sed elementum massa euismod. Donec eget magna orci, at fermentum metus. Sed rhoncus, nibh nec dapibus adipiscing, felis felis convallis arcu, quis semper justo mauris sed magna. Nulla facilisi. Aliquam ultricies diam non turpis tristique porta. Sed nec ligula id turpis iaculis adipiscing. Phasellus viverra urna sed purus porta rutrum. Nam ultrices molestie tellus, ac vulputate odio condimentum in.</p>",shopify,kicks,"Featured Collection, red",true,Title,Default Title,,,,,"",0.0,,1,deny,manual,120.00,,true,true,"",https://cdn.shopify.com/s/files/1/0250/5968/8496/products/ALCCRGBR-F081_thum1___107.jpg?v=1559086178,1,,false,,,,,,,,,,,,,,,,,kg,,,active
+nice-shoes,Nice Shoes,"<p> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus id 
+purus et nisl elementum ornare sit amet non mi. Phasellus euismod sapien
+ et sapien mollis auctor. Suspendisse interdum erat ut metus euismod sed
+ elementum massa euismod. Donec eget magna orci, at fermentum metus. Sed
+ rhoncus, nibh nec dapibus adipiscing, felis felis convallis arcu, quis 
+semper justo mauris sed magna. Nulla facilisi. Aliquam ultricies diam 
+non turpis tristique porta. Sed nec ligula id turpis iaculis adipiscing.
+ Phasellus viverra urna sed purus porta rutrum. Nam ultrices molestie 
+tellus, ac vulputate odio condimentum in.</p>
+",shopify,kicks,Featured Collection,true,Title,Default Title,,,,,"",0.0,,1,deny,manual,120.00,,true,true,"",https://cdn.shopify.com/s/files/1/0250/5968/8496/products/ADG20065_thum1_177_2152_20721.jpg?v=1559086179,1,,false,,,,,,,,,,,,,,,,,kg,,,active
+old-school-kicks,Old School Kicks,"<p> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus id purus et nisl elementum ornare sit amet non mi. Phasellus euismod sapien et sapien mollis auctor. Suspendisse interdum erat ut metus euismod sed elementum massa euismod. Donec eget magna orci, at fermentum metus. Sed rhoncus, nibh nec dapibus adipiscing, felis felis convallis arcu, quis semper justo mauris sed magna. Nulla facilisi. Aliquam ultricies diam non turpis tristique porta. Sed nec ligula id turpis iaculis adipiscing. Phasellus viverra urna sed purus porta rutrum. Nam ultrices molestie tellus, ac vulputate odio condimentum in.</p>",shopify,kicks,Featured Collection,true,Size,10,Color,black,,,"",0.0,,1,deny,manual,110.00,,true,true,"",https://cdn.shopify.com/s/files/1/0250/5968/8496/products/m1300ggb-1_1.jpg?v=1559086180,1,,false,,,,,,,,,,,,,,,,,kg,,,active
+old-school-kicks,,,,,,,,10,,blue,,,"",0.0,,0,deny,manual,110.00,,true,true,"",,,,,,,,,,,,,,,,,,,,,kg,,,
+old-school-kicks,,,,,,,,11,,black,,,"",0.0,,0,deny,manual,110.00,,true,true,"",,,,,,,,,,,,,,,,,,,,,kg,,,
+old-school-kicks,,,,,,,,11,,blue,,,"",0.0,,0,deny,manual,110.00,,true,true,"",,,,,,,,,,,,,,,,,,,,,kg,,,
+old-school-kicks,,,,,,,,12,,black,,,"",0.0,,0,deny,manual,110.00,,true,true,"",,,,,,,,,,,,,,,,,,,,,kg,,,
+old-school-kicks,,,,,,,,12,,blue,,,"",0.0,,0,deny,manual,110.00,,true,true,"",,,,,,,,,,,,,,,,,,,,,kg,,,
+awesome-sneakers-1,Awesome Sneakers,"<div class=""shogun-root"" data-shogun-id=""5e7e89bec46cc000518e8979"" data-shogun-site-id=""2f23d104-6c98-4270-9e18-00311a728212"" data-shogun-page-id=""5e7e89bec46cc000518e8979"" data-shogun-page-version-id=""5e7e89f09b78c0005895fb8c"" data-shogun-platform-type=""shopify"" data-shogun-variant-id=""5e7e89f09b78c0005895fb99"" data-region=""main"">
+<div id=""s-92a55ccd-d3b5-43ce-96e8-26462900a841"" class=""shg-c"">
+<div class=""shg-rich-text shg-theme-text-content"">
+<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus id purus et nisl elementum ornare sit amet non mi. Phasellus euismod sapien et sapien mollis auctor. Suspendisse interdum erat ut metus euismod sed elementum massa euismod. Donec eget magna orci, at fermentum metus. Sed rhoncus, nibh nec dapibus adipiscing, felis felis convallis arcu, quis semper justo mauris sed magna. Nulla facilisi. Aliquam ultricies diam non turpis tristique porta. Sed nec ligula id turpis iaculis adipiscing. Phasellus viverra urna sed purus porta rutrum. Nam ultrices molestie tellus, ac vulputate odio condimentum in.</p>
+<div id=""s-92a55ccd-d3b5-43ce-96e8-26462900a841"" class=""shg-c"">
+<div class=""shg-rich-text shg-theme-text-content"">
+<div id=""s-92a55ccd-d3b5-43ce-96e8-26462900a841"" class=""shg-c"">
+<div class=""shg-rich-text shg-theme-text-content"">
+<p>Text block 2</p>
+</div>
+</div>
+<div id=""s-48a629d0-8e88-4ece-8355-0eddaa73f8b4"" class=""shg-c""><hr></div>
+<div id=""s-183bc065-0485-4eba-a56b-251fa2a3aa93"" class=""shg-c"">
+<div class=""shg-rich-text shg-theme-text-content"">
+<p>Text Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus id purus et nisl elementum ornare sit amet non mi. Phasellus euismod sapien et sapien mollis auctor. Suspendisse interdum erat ut metus euismod sed elementum massa euismod. Donec eget magna orci, at fermentum metus. Sed rhoncus, nibh nec dapibus adipiscing, felis felis convallis arcu, quis semper justo mauris sed magna. Nulla facilisi. Aliquam ultricies diam non turpis tristique porta. Sed nec ligula id turpis iaculis adipiscing. Phasellus viverra urna sed purus porta rutrum. Nam ultrices molestie tellus, ac vulputate odio condimentum in.</p>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div id=""s-183bc065-0485-4eba-a56b-251fa2a3aa93"" class=""shg-c""><br></div>
+</div>",Tets,kicks,"Featured Collection, men, nike, red",true,Size,8,Color,Red,,,"",0.0,shopify,0,continue,manual,100.00,,true,true,"",https://cdn.shopify.com/s/files/1/0250/5968/8496/products/ni313171_600_thum1_10_674_17041_6a24d228-ff6c-4228-b4cb-ea520a3588a2.jpg?v=1592367351,1,,false,,,,,,,,,,,,,,,,,kg,,,active
+awesome-sneakers-1,,,,,,,,8,,Black,,,"",0.0,shopify,5,continue,manual,100.00,120.00,true,true,"",https://cdn.shopify.com/s/files/1/0250/5968/8496/products/g_lovemedo7_f_large_35028c1c-8c0a-493b-bdd3-ba10d1dcd573.jpg?v=1592367351,2,,,,,,,,,,,,,,,,,,,kg,,,
+awesome-sneakers-1,,,,,,,,9,,Red,,,"",0.0,shopify,0,continue,manual,120.00,,true,true,"",,,,,,,,,,,,,,,,,,,,,kg,,,
+awesome-sneakers-1,,,,,,,,9,,Black,,,"",0.0,shopify,5,continue,manual,120.00,,true,true,"",,,,,,,,,,,,,,,,,,,,,kg,,,
+awesome-sneakers-1,,,,,,,,10,,Red,,,"",0.0,shopify,5,continue,manual,120.00,,true,true,"",,,,,,,,,,,,,,,,,,,,,kg,,,
+awesome-sneakers-1,,,,,,,,10,,Black,,,"",0.0,shopify,5,continue,manual,120.00,,true,true,"",,,,,,,,,,,,,,,,,,,,,kg,,,
+awesome-sneakers-1,,,,,,,,11,,Red,,,"",0.0,shopify,5,continue,manual,120.00,,true,true,"",,,,,,,,,,,,,,,,,,,,,kg,,,
+awesome-sneakers-1,,,,,,,,11,,Black,,,"",0.0,shopify,5,continue,manual,120.00,,true,true,"",,,,,,,,,,,,,,,,,,,,,kg,,,
+awesome-sneakers-1,,,,,,,,12,,Red,,,"",0.0,shopify,5,continue,manual,140.00,,true,true,"",,,,,,,,,,,,,,,,,,,,,kg,,,
+awesome-sneakers-1,,,,,,,,12,,Black,,,"",0.0,shopify,5,continue,manual,140.00,,true,true,"",,,,,,,,,,,,,,,,,,,,,kg,,,
+t-shirt,T-Shirt,Your everyday tee. Available in 4 different colours.,Chris Testing Shop,"","",true,Size,S,Color,White,,,"",0.0,shopify,10,deny,manual,10.00,,true,true,"",https://cdn.shopify.com/s/files/1/0250/5968/8496/products/blue-t.jpg?v=1617510240,1,,false,,,,,,,,,,,,,,,,https://cdn.shopify.com/s/files/1/0250/5968/8496/products/white-t.jpg?v=1617510240,kg,,,active
+t-shirt,,,,,,,,S,,Black,,,"",0.0,shopify,10,deny,manual,10.00,,true,true,"",https://cdn.shopify.com/s/files/1/0250/5968/8496/products/red-t.jpg?v=1617510240,2,,,,,,,,,,,,,,,,,,https://cdn.shopify.com/s/files/1/0250/5968/8496/products/black-t.jpg?v=1617510240,kg,,,
+t-shirt,,,,,,,,S,,Red,,,"",0.0,shopify,10,deny,manual,10.00,,true,true,"",https://cdn.shopify.com/s/files/1/0250/5968/8496/products/white-t.jpg?v=1617510240,3,,,,,,,,,,,,,,,,,,https://cdn.shopify.com/s/files/1/0250/5968/8496/products/red-t.jpg?v=1617510240,kg,,,
+t-shirt,,,,,,,,S,,Blue,,,"",0.0,shopify,10,deny,manual,10.00,,true,true,"",https://cdn.shopify.com/s/files/1/0250/5968/8496/products/black-t.jpg?v=1617510240,4,,,,,,,,,,,,,,,,,,https://cdn.shopify.com/s/files/1/0250/5968/8496/products/blue-t.jpg?v=1617510240,kg,,,
+t-shirt,,,,,,,,M,,White,,,"",0.0,shopify,10,deny,manual,15.00,,true,true,"",,,,,,,,,,,,,,,,,,,,https://cdn.shopify.com/s/files/1/0250/5968/8496/products/white-t.jpg?v=1617510240,kg,,,
+t-shirt,,,,,,,,M,,Black,,,"",0.0,shopify,10,deny,manual,15.00,,true,true,"",,,,,,,,,,,,,,,,,,,,https://cdn.shopify.com/s/files/1/0250/5968/8496/products/black-t.jpg?v=1617510240,kg,,,
+t-shirt,,,,,,,,M,,Red,,,"",0.0,shopify,10,deny,manual,15.00,,true,true,"",,,,,,,,,,,,,,,,,,,,https://cdn.shopify.com/s/files/1/0250/5968/8496/products/red-t.jpg?v=1617510240,kg,,,
+t-shirt,,,,,,,,M,,Blue,,,"",0.0,shopify,10,deny,manual,15.00,,true,true,"",,,,,,,,,,,,,,,,,,,,https://cdn.shopify.com/s/files/1/0250/5968/8496/products/blue-t.jpg?v=1617510240,kg,,,
+t-shirt,,,,,,,,L,,White,,,"",0.0,shopify,10,deny,manual,20.00,,true,true,"",,,,,,,,,,,,,,,,,,,,https://cdn.shopify.com/s/files/1/0250/5968/8496/products/white-t.jpg?v=1617510240,kg,,,
+t-shirt,,,,,,,,L,,Black,,,"",0.0,shopify,10,deny,manual,20.00,,true,true,"",,,,,,,,,,,,,,,,,,,,https://cdn.shopify.com/s/files/1/0250/5968/8496/products/black-t.jpg?v=1617510240,kg,,,
+t-shirt,,,,,,,,L,,Red,,,"",0.0,shopify,10,deny,manual,20.00,,true,true,"",,,,,,,,,,,,,,,,,,,,https://cdn.shopify.com/s/files/1/0250/5968/8496/products/red-t.jpg?v=1617510240,kg,,,
+t-shirt,,,,,,,,L,,Blue,,,"",0.0,shopify,10,deny,manual,20.00,,true,true,"",,,,,,,,,,,,,,,,,,,,https://cdn.shopify.com/s/files/1/0250/5968/8496/products/blue-t.jpg?v=1617510240,kg,,,
