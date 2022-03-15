@@ -1,0 +1,17 @@
+<img
+    srcset="{%- if image.width >= 165 -%}{{ image | img_url: '165x', scale: 2 }} 165w,{%- endif -%}
+    {%- if image.width >= 360 -%}{{ image | img_url: '360x', scale: 2 }} 360w,{%- endif -%}
+    {%- if image.width >= 535 -%}{{ image | img_url: '535x', scale: 2 }} 535w,{%- endif -%}
+    {%- if image.width >= 750 -%}{{ image | img_url: '750x', scale: 2 }} 750w,{%- endif -%}
+    {%- if image.width >= 1070 -%}{{ image | img_url: '1070x', scale: 2 }} 1070w,{%- endif -%}
+    {%- if image.width >= 1500 -%}{{ image | img_url: '1500x', scale: 2 }} 1500w,{%- endif -%}"
+    src="{{ image | img_url: '750x', scale: 2 }}"
+    sizes="(min-width: {{ settings.page_width }}px) {{ settings.page_width | minus: 100 | divided_by: 2 }}px, (min-width: 750px) calc(50vw - 130px), calc(50vw - 55px)"
+    alt="{{ image.alt | escape }}"
+    loading="lazy"
+    width="{{ image.width }}"
+    height="{{ image.height }}"
+    {% if class != blank %}
+        class="{{ class }}"
+    {% endif %}
+>
