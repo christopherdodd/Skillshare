@@ -1,0 +1,50 @@
+<div class="page-width creators">
+  {% for creator in creators %}
+    <div class="creator">
+      <div class="creator-image"></div>
+      <h2 class="creator-title"></h2>
+      <p class="creator-paragraph"></p>
+      <h3>Creator of...</h3>
+      <div class="creator-products">
+        {% for product in products %}
+          <a href="" class="creator-product"></a>
+        {% endfor %}
+      </div>
+    </div>
+  {% endfor %}
+</div>
+
+<style>
+  .creators {
+    margin-top: 5rem;
+    margin-bottom: 5rem;
+    display: flex;
+    justify-content: center;
+    column-gap: 20px;
+  }
+  .creator {
+    text-align: center;
+    box-shadow: rgba(0, 0, 0, 0.23) 0px 2px 5px 5px;
+    padding: 20px;
+  }
+  .creator-products {
+    display: flex;
+    column-gap: 15px;
+    justify-content: center;
+  }
+  .creator-product {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    text-decoration: none;
+    color: rgb(var(--color-foreground));
+  }
+
+</style>
+
+{% schema %}
+  {
+    "name": "Creators",
+    "settings": []
+  }
+{% endschema %}
